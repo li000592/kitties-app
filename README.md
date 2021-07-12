@@ -2,7 +2,7 @@
 
 ### Techs:
 
-React, @Redux/react, @reduxjs/toolkit
+Vite, React, @Redux/react, @reduxjs/toolkit
 
 ### Netlify:
 
