@@ -5,9 +5,14 @@ import { useFetchBreedsQuery } from "./features/cats/catsApiSlice"
 
 function App() {
   const dispatch = useAppDispatch()
-  const { data = [], isFetching } = useFetchBreedsQuery(10)
-  console.log(data)
-
+  const { data = [], isFetching } = useFetchBreedsQuery(5)
+  console.log(data, isFetching)
+  if (isFetching)
+    return (
+      <div className='App'>
+        <h5>loading...</h5>
+      </div>
+    )
   return (
     <div className='App'>
       {" "}

@@ -1,0 +1,8 @@
+.App {
+  display: flex;
+  text-align: center;
+  align-self: center;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
